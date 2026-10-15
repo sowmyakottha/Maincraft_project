@@ -1,0 +1,14 @@
+:root {
+  --bg: linear-gradient(120deg,#4facfe,#00f2fe); --card:#fff;
+  --accent:#0b69ff; --muted:#7a7a7a;
+  font-family:'Inter',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#111;min-height:100vh}
+
+.nav{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1rem 2rem;background:rgba(255,255,255,0.06);
+}
+.brand{font-weight:700;color:#fff}
+.na
